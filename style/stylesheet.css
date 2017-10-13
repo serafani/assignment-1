@@ -15,7 +15,7 @@ html, body {
     margin-top: 0;
 }
 .nav {
-    background-color: #3D3242;
+    background-color: #AB987A;
     overflow: hidden;
     border-radius: 2px;
     margin: 0 0 30px;
@@ -34,7 +34,7 @@ html, body {
 }
 #nav a{
     font-family: 'bebasneue';
-    color: white;
+    color: #EFEFEF;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -43,8 +43,7 @@ html, body {
     width: 150px;
 }
 #nav a:hover{
-    background-color: #7A3E48;
-    color: #FFF;
+    background-color: #A0B7C0;
 }
 .main{
     text-align: center;
