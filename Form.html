@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Job Opportunities</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1>Marina Café</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <a href='Index.html'>Home Page</a>
+                <br><a href='Menu.html'>Menu</a>
+                <br><a href='Performances.html'>Performances</a>
+                <br><a href='Form.html'>Jobs</a>
+            </div>
+            <div class="col-sm-2">
+                <p>Are you a college student who would like a part time job?</p>
+                <p>Apply at Marine Café -- we will work around your school schedule.</p>
+                <p>Complete the information form at the right to get the application process started.</p>
+                <p>Or, if you prefer, stop by Marine Café any time and ask about employment opportunities.</p>
+                <p>Marina Café is an equal opportunity employer.</p>
+                <p>We celebrate the diversity of our associates!</p>
+            </div>
+            <div class="col-sm-8">
+                <table>
+                    <form action="job_applications.php" method="post">
+
+                        <tr>
+                            <td>
+                                <label for="name">Name</label>
+                            </td>
+                            <td>
+                                <input type="text" id="Name" name="Name" placeholder="Your name" required="required">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email Address</label>
+                            </td>
+                            <td>
+                                <input type="text" id="Email" name="Email" placeholder="Your email" required="required">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="phone">Phone</label>
+                            </td>
+                            <td>
+                                <input type="text" id="Phone" name="Phone" placeholder="Your phone number" required="required">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Please select the job you are interested in:</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="roles" value="bar_associate" checked>Bar Associate</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="roles" value="server">Server</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="roles" value="cleaning_maintenance">Cleaning &amp;Maintenance</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="roles" value="manager">Manager</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Employment Type:</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="employment_type" value="pt" checked>Part-Time</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="employment_type" value="ft">Full-Time</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Gender:</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="gender" value="male" checked>Male</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="gender" value="female">Female</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Years of Experience</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="years_of_experience">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5+</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="comments">Comment</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea id="Comment" name="Comment" placeholder="Write a comment..."></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" value="Submit">
+                            </td>
+                            <td>
+                                <button type="reset" value="reset">Reset</button>
+                            </td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
