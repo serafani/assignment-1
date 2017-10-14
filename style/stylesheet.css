@@ -13,6 +13,7 @@ html, body {
     margin-right: auto;
     width: 100%;
     margin-top: 0;
+    font-family: 'Playfair Display', serif;
 }
 .nav {
     background-color: #AB987A;
@@ -31,6 +32,7 @@ html, body {
 }
 #nav li {
     float: left;
+    padding-left: 10px;
 }
 #nav a{
     font-family: 'bebasneue';
@@ -54,3 +56,21 @@ html, body {
 img{
     width: 100%;
 }
+.menu {
+    text-align: center;
+    margin-top: -60px;
+}
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: #00b3b3;
+}
+.jumbotron{
+    background-color: white;
+}
+h1 {
+   font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 20px;
+}
+hr { 
+width: 50%;}
