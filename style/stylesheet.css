@@ -15,6 +15,9 @@ html, body {
     margin-top: 0;
     font-family: 'Playfair Display', serif;
 }
+.header{
+    text-align: center;
+}
 .nav {
     background-color: #AB987A;
     overflow: hidden;
@@ -53,8 +56,17 @@ html, body {
     margin-right: auto;
     margin-left: auto;
 }
+.performers{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 150px;
+}
 img{
     width: 100%;
+}
+.logo {
+    width: 150px;
 }
 .menu {
     text-align: center;
