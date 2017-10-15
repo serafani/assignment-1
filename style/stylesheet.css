@@ -15,12 +15,16 @@ html, body {
     margin-top: 0;
     font-family: 'Playfair Display', serif;
 }
+.navbar{
+    position: fixed;
+    width: 100%;
+    
+}
 .header{
     text-align: center;
 }
 .main{
     text-align: center;
-    margin-top: -20px;
     margin-right: auto;
     margin-left: auto;
 }
