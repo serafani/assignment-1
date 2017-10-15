@@ -23,10 +23,12 @@ html, body {
 .header{
     text-align: center;
 }
-.main{
+.main, .base{
     text-align: center;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
+    
 }
 .container-fluid{
     font-family: 'bebasneue';
@@ -35,11 +37,11 @@ html, body {
 .performers{
     width: 150px;
 }
-img{
-    width: 100%;
-}
 #logo {
     width: 40px;
+}
+#logo2{
+    width: 100px;
 }
 .menu{
     text-align: center;
