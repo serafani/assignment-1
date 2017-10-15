@@ -4,7 +4,17 @@
          url('../fonts/bebasregular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+}
+@media screen and (max-width:480px) {
+    .main, .base{
+        display: none;
+    }
+    .navbar{
+        position:fixed;
+    }
+    .block{
+        margin-top: 80px;
+    }
 }
 html, body {
     background: white;
