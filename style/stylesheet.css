@@ -29,9 +29,6 @@ html, body {
     font-size: 20px;
 }
 .performers{
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
     width: 150px;
 }
 img{
@@ -40,12 +37,20 @@ img{
 .logo {
     width: 150px;
 }
-.menu {
+.menu,{
     text-align: center;
     margin-top: -60px;
     font-size: 100%;
 }
-h2{
+.homepage{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 100%;
+}
+.performance {
+    text-align: center;
+}
+h2, h3{
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     color: #00b3b3;
