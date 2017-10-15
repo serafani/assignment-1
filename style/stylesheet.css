@@ -34,8 +34,8 @@ html, body {
 img{
     width: 100%;
 }
-.logo {
-    width: 150px;
+#logo {
+    width: 40px;
 }
 .menu{
     text-align: center;
